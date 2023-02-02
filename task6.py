@@ -9,6 +9,6 @@ ticket = input("Введите номер билета: ")
 part1 = int(ticket[0:3])
 part2 = int(ticket[3:])
 if (part1%10 + (part1 %100)//10 + part1//100) == (part2%10 + (part2 %100)//10 + part2//100):
-    print("YES")
+    print("Билет счастливый")
 else:
-    print("NO")
+    print("Билет не является счастливым")
